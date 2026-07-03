@@ -1,4 +1,4 @@
-![CI](https://github.com/Dinars34/rustgate/actions/workflows/ci.yml/badge.svg)x`
+![CI](https://github.com/Dinars34/rustgate/actions/workflows/ci.yml/badge.svg)
 # RustGate
 
 An asynchronous, task-per-connection TCP reverse proxy built in Rust with [Tokio](https://tokio.rs/), designed as a foundation for a fully-featured L4/L7 load balancer.
