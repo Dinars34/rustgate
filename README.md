@@ -1,4 +1,4 @@
-![CI](https://github.com/Dinars34/rustgate/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Dinars34/rustgate/actions/workflows/ci.yml/badge.svg)x`
 # RustGate
 
 An asynchronous, task-per-connection TCP reverse proxy built in Rust with [Tokio](https://tokio.rs/), designed as a foundation for a fully-featured L4/L7 load balancer.
@@ -11,7 +11,7 @@ An asynchronous, task-per-connection TCP reverse proxy built in Rust with [Tokio
 
 RustGate accepts incoming TCP connections on a configurable frontend port and transparently tunnels traffic to an upstream server using `tokio::io::copy_bidirectional`. Each client connection is handled by an independent async task, allowing the proxy to serve many concurrent connections efficiently on a small number of OS threads.
 
-This project is a learning-driven systems engineering exercise, built while studying async Rust (Tokio, *The Rust Programming Language* Ch. 16–17). The goal is a production-representative proxy with load balancing, health checking, and observability.
+This project is a learning-driven systems engineering exercise, built while studying async Rust (Tokio, *The Rust Programming Language*). The goal is a production-representative proxy with load balancing, health checking, and observability.
 
 ---
 
