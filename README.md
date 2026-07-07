@@ -3,7 +3,7 @@
 
 An asynchronous, task-per-connection TCP reverse proxy built in Rust with [Tokio](https://tokio.rs/), designed as a foundation for a fully-featured L4/L7 load balancer.
 
-> **Status:** Active development — core L4 proxy is operational. Load balancing, L7 routing, and health checking are in progress (see [Roadmap](#roadmap)).
+> **Status:** Phase 1 Completed — The core L4 asynchronous proxy is fully operational and tested. Advanced features (load balancing, L7 routing, and observability) are mapped out in theActive development — core L4 proxy is operational. Load balancing, L7 routing, and health checking are in progress (see [Roadmap](#roadmap)) for future architectural iterations.
 
 ---
 
